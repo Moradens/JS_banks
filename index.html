@@ -2,18 +2,20 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="js.index.js"></script>
+    <title>Banks</title>
+    <script type="module" src="js.index.js"></script>
     <link rel="stylesheet" href="style.index.css">
 </head>
 <body>
-<div class="likes">❤️ 0</div>
+<div class="likes" id="likesCount">❤️ 0</div>
 <div class="header">
     <div class="logo">🏦</div>
 </div>
 <div class="searchbar">
-    <input type="text" class="bar" placeholder="🔍 Search...">
+    <input type="text" class="bar" id="searchInput"placeholder="🔍 Search...">
 </div>
-
+<div class="bank_content">
+    <div class="cards-container" id="bankCardsContainer"></div>
+</div>
 </body>
 </html>

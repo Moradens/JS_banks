@@ -3,6 +3,13 @@ body{
     padding-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.bank{
+    width: 300px;
+}
 .header{
     display: flex;
     justify-content: center;
@@ -27,4 +34,104 @@ body{
     position: absolute;
     top: 10px;
     right: 10px;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bank-card {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    position: relative;
+}
+
+.bank_content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.dollar-sign {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+.name {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.clients {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.opening {
+    color: gray;
+    font-size: 15px;
+}
+
+.location {
+    color: gray;
+    font-size: 15px;
+}
+
+.loan {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.favorite {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-blue .name,
+.card-blue .score{
+    color: cornflowerblue;
+}
+.card-blue .favorite{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.card-orange .name,
+.card-orange .score{
+    color: orange;
+}
+.card-orange .favorite{
+    color: white;
+    background-color: orange;
+}
+
+.card-green .name,
+.card-green .score{
+    color: limegreen;
+}
+.card-green .favorite {
+    color: white;
+    background-color: limegreen;
+}
+.score-blue {
+    color: cornflowerblue;
+}
+
+.score-orange {
+    color: orange;
+}
+
+.score-green {
+    color: limegreen;
 }
